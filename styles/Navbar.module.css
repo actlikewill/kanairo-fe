@@ -1,0 +1,32 @@
+.navbar {
+  font-size: .8rem;
+  font-display: swap;
+  text-transform: uppercase;
+  letter-spacing: .01rem;
+  background-color: #fff;
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 0.5rem 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0 
+}
+
+.navbar ul li {
+  margin-right: 1rem;
+}
+
+.loading {
+  opacity: 0;
+  transition: all 0.2 ease-in;
+}
+
+.loaded {
+  opacity: 1;
+  transition: all 0.2 ease-in;
+}
